@@ -1,201 +1,201 @@
-"px","item","list","item_in_list","arist","title","audiofile","heritage","instruments","condition","tonality","rhythm","tempo_rating","familiarity_rating","formality_rating","formality_differences"
-1,"42","1","1_42","Beethoven Ludwig van","f_bagatelle_in_a_minor_wo_op_59","f_bagatelle_in_a_minor_wo_op_59_high.mp3","formal","high","f_h","Minor","3 8",6,7,7,3
-3,"42","2","2_42","Beethoven Ludwig van","f_bagatelle_in_a_minor_wo_op_59","f_bagatelle_in_a_minor_wo_op_59_low.mp3","formal","low","f_l","Minor","3 8",5,7,4,3
-2,"57","1","1_57","Offenbach Jacques","f_can_can_1_intro","f_can_can_1_intro_low.mp3","formal","low","f_l","Major","2 4",6,7,3,3
-4,"57","2","2_57","Offenbach Jacques","f_can_can_1_intro","f_can_can_1_intro_high.mp3","formal","high","f_h","Major","2 4",6,7,6,3
-2,"87","1","1_87","Offenbach Jacques","f_can_can_2_second","f_can_can_2_second_high.mp3","formal","high","f_h","Major","2 4",5,7,7,2
-4,"87","2","2_87","Offenbach Jacques","f_can_can_2_second","f_can_can_2_second_low.mp3","formal","low","f_l","Major","2 4",5,7,5,2
-1,"38","1","1_38","Offenbach Jacques","f_can_can_3_part","f_can_can_3_part_low.mp3","formal","low","f_l","Major","2 4",4,7,4,2
-3,"38","2","2_38","Offenbach Jacques","f_can_can_3_part","f_can_can_3_part_high.mp3","formal","high","f_h","Major","2 4",6,7,6,2
-2,"100","1","1_100","Pachelbel Johann","f_canon_in_d_p_37","f_canon_in_d_p_37_high.mp3","formal","high","f_h","Major","4 4",7,7,7,3
-4,"100","2","2_100","Pachelbel Johann","f_canon_in_d_p_37","f_canon_in_d_p_37_low.mp3","formal","low","f_l","Major","4 4",7,7,4,3
-1,"39","1","1_39","Bizet Georges","f_carmen_suite_no_2_habanera","f_carmen_suite_no_2_habanera_low.mp3","formal","low","f_l","Minor","2 4",6,7,4,2
-3,"39","2","2_39","Bizet Georges","f_carmen_suite_no_2_habanera","f_carmen_suite_no_2_habanera_high.mp3","formal","high","f_h","Minor","2 4",5,7,6,2
-1,"3","1","1_03","Orff Carl","f_carmina_burana_o_fortuna_1_intro","f_carmina_burana_o_fortuna_1_intro_high.mp3","formal","high","f_h","Minor","3 1",1,7,7,4
-3,"3","2","2_03","Orff Carl","f_carmina_burana_o_fortuna_1_intro","f_carmina_burana_o_fortuna_1_intro_low.mp3","formal","low","f_l","Minor","3 1",2,7,3,4
-1,"17","1","1_17","Orff Carl","f_carmina_burana_o_fortuna_2_intro","f_carmina_burana_o_fortuna_2_intro_low.mp3","formal","low","f_l","Minor","3 1",1,7,3,4
-3,"17","2","2_17","Orff Carl","f_carmina_burana_o_fortuna_2_intro","f_carmina_burana_o_fortuna_2_intro_high.mp3","formal","high","f_h","Minor","3 1",1,7,7,4
-2,"67","1","1_67","Orff Carl","f_carmina_burana_o_fortuna_3_theme","f_carmina_burana_o_fortuna_3_theme_high.mp3","formal","high","f_h","Minor","3 2",5,7,7,2
-4,"67","2","2_67","Orff Carl","f_carmina_burana_o_fortuna_3_theme","f_carmina_burana_o_fortuna_3_theme_low.mp3","formal","low","f_l","Minor","3 2",5,7,5,2
-2,"93","1","1_93","Mozart Wolfgang Amadeus","f_die_zauberfloete_k_620_act_2_der_hoelle_rache","f_die_zauberfloete_k_620_act_2_der_hoelle_rache_low.mp3","formal","low","f_l","Major","4 4",7,7,4,3
-4,"93","2","2_93","Mozart Wolfgang Amadeus","f_die_zauberfloete_k_620_act_2_der_hoelle_rache","f_die_zauberfloete_k_620_act_2_der_hoelle_rache_high.mp3","formal","high","f_h","Major","4 4",7,7,7,3
-2,"60","1","1_60","Chopin Frederic","f_etude_op_10_no_12_in_c_minor","f_etude_op_10_no_12_in_c_minor_high.mp3","formal","high","f_h","Minor","4 4",7,7,7,4
-4,"60","2","2_60","Chopin Frederic","f_etude_op_10_no_12_in_c_minor","f_etude_op_10_no_12_in_c_minor_low.mp3","formal","low","f_l","Minor","4 4",7,7,3,4
-1,"35","1","1_35","Satie Erik","f_gnossienne_no1","f_gnossienne_no1_low.mp3","formal","low","f_l","Minor","4 4",4,7,4,0
-3,"35","2","2_35","Satie Erik","f_gnossienne_no1","f_gnossienne_no1_high.mp3","formal","high","f_h","Minor","4 4",2,7,4,0
-2,"62","1","1_62","Satie Erik","f_gymnopedie_no_1","f_gymnopedie_no_1_high.mp3","formal","high","f_h","Major","3 4",3,7,6,2
-4,"62","2","2_62","Satie Erik","f_gymnopedie_no_1","f_gymnopedie_no_1_low.mp3","formal","low","f_l","Major","3 4",2,7,4,2
-2,"51","1","1_51","Brahms Johannes","f_hungarian_dance_no_5_in_g_minor_1","f_hungarian_dance_no_5_in_g_minor_1_low.mp3","formal","low","f_l","Minor","2 4",4,7,4,3
-4,"51","2","2_51","Brahms Johannes","f_hungarian_dance_no_5_in_g_minor_1","f_hungarian_dance_no_5_in_g_minor_1_high.mp3","formal","high","f_h","Minor","2 4",5,7,7,3
-1,"27","1","1_27","Brahms Johannes","f_hungarian_dance_no_5_in_g_minor_2","f_hungarian_dance_no_5_in_g_minor_2_high.mp3","formal","high","f_h","Minor","2 4",6,7,6,3
-3,"27","2","2_27","Brahms Johannes","f_hungarian_dance_no_5_in_g_minor_2","f_hungarian_dance_no_5_in_g_minor_2_low.mp3","formal","low","f_l","Minor","2 4",5,7,3,3
-2,"86","1","1_86","Rossini Gioachino","f_il_barbiere_di_siviglia_overture","f_il_barbiere_di_siviglia_overture_low.mp3","formal","low","f_l","Minor","4 4",6,7,2,5
-4,"86","2","2_86","Rossini Gioachino","f_il_barbiere_di_siviglia_overture","f_il_barbiere_di_siviglia_overture_high.mp3","formal","high","f_h","Minor","4 4",6,7,7,5
-2,"91","1","1_91","Paganini","f_la_campanella_3_allegretto_allegro_moderato","f_la_campanella_3_allegretto_allegro_moderato_high.mp3","formal","high","f_h","Minor","6 8",7,7,7,3
-4,"91","2","2_91","Paganini","f_la_campanella_3_allegretto_allegro_moderato","f_la_campanella_3_allegretto_allegro_moderato_low.mp3","formal","low","f_l","Minor","6 8",7,7,4,3
-1,"47","1","1_47","Paganini","f_la_campanella_6_quasi_presto","f_la_campanella_6_quasi_presto_low.mp3","formal","low","f_l","Minor","2 4",6,7,4,2
-3,"47","2","2_47","Paganini","f_la_campanella_6_quasi_presto","f_la_campanella_6_quasi_presto_high.mp3","formal","high","f_h","Minor","2 4",6,7,6,2
-2,"56","1","1_56","Verdi Guiseppe","f_la_donna_e_mobile","f_la_donna_e_mobile_high.mp3","formal","high","f_h","Major","3 8",6,7,7,4
-4,"56","2","2_56","Verdi Guiseppe","f_la_donna_e_mobile","f_la_donna_e_mobile_low.mp3","formal","low","f_l","Major","3 8",7,7,3,4
-1,"16","1","1_16","Handel George Frideric","f_messiah_hwv_56_part_ii_no_44_chorus_hallelujah","f_messiah_hwv_56_part_ii_no_44_chorus_hallelujah_low.mp3","formal","low","f_l","Major","4 4",2,7,3,4
-3,"16","2","2_16","Handel George Frideric","f_messiah_hwv_56_part_ii_no_44_chorus_hallelujah","f_messiah_hwv_56_part_ii_no_44_chorus_hallelujah_high.mp3","formal","high","f_h","Major","4 4",3,7,7,4
-1,"26","1","1_26","Chopin Frederic","f_nocturne_op_9_no_1_in_b_flat_minor","f_nocturne_op_9_no_1_in_b_flat_minor_high.mp3","formal","high","f_h","Minor","3 8",2,7,7,4
-3,"26","2","2_26","Chopin Frederic","f_nocturne_op_9_no_1_in_b_flat_minor","f_nocturne_op_9_no_1_in_b_flat_minor_low.mp3","formal","low","f_l","Minor","3 8",1,7,3,4
-1,"33","1","1_33","Chopin Frederic","f_nocturne_op_9_no_2_in_e_flat_major","f_nocturne_op_9_no_2_in_e_flat_major_low.mp3","formal","low","f_l","Major","12 8",2,7,4,3
-3,"33","2","2_33","Chopin Frederic","f_nocturne_op_9_no_2_in_e_flat_major","f_nocturne_op_9_no_2_in_e_flat_major_high.mp3","formal","high","f_h","Major","12 8",5,7,7,3
-2,"78","1","1_78","Tchaikovsky P I","f_nutcracker_dance_of_the_reed_flutes_opus_71","f_nutcracker_dance_of_the_reed_flutes_opus_71_high.mp3","formal","high","f_h","Major","2 4",6,7,7,4
-4,"78","2","2_78","Tchaikovsky P I","f_nutcracker_dance_of_the_reed_flutes_opus_71","f_nutcracker_dance_of_the_reed_flutes_opus_71_low.mp3","formal","low","f_l","Major","2 4",6,7,3,4
-2,"69","1","1_69","Tchaikovsky P I","f_nutcracker_dance_of_the_sugar_plum_fairy","f_nutcracker_dance_of_the_sugar_plum_fairy_low.mp3","formal","low","f_l","Minor","2 4",4,7,3,4
-4,"69","2","2_69","Tchaikovsky P I","f_nutcracker_dance_of_the_sugar_plum_fairy","f_nutcracker_dance_of_the_sugar_plum_fairy_high.mp3","formal","high","f_h","Minor","2 4",2,7,7,4
-2,"84","1","1_84","Tchaikovsky P I","f_nutcracker_march","f_nutcracker_march_high.mp3","formal","high","f_h","Major","4 4",7,7,7,4
-4,"84","2","2_84","Tchaikovsky P I","f_nutcracker_march","f_nutcracker_march_low.mp3","formal","low","f_l","Major","4 4",6,7,3,4
-1,"50","1","1_50","Tchaikovsky P I","f_nutcracker_russian_soldiers_dance","f_nutcracker_russian_soldiers_dance_low.mp3","formal","low","f_l","Major","2 4",6,7,3,4
-3,"50","2","2_50","Tchaikovsky P I","f_nutcracker_russian_soldiers_dance","f_nutcracker_russian_soldiers_dance_high.mp3","formal","high","f_h","Major","2 4",7,7,7,4
-1,"13","1","1_13","Tchaikovsky P I","f_nutcracker_waltz_of_the_flowers","f_nutcracker_waltz_of_the_flowers_high.mp3","formal","high","f_h","Major","3 4",3,7,7,3
-3,"13","2","2_13","Tchaikovsky P I","f_nutcracker_waltz_of_the_flowers","f_nutcracker_waltz_of_the_flowers_low.mp3","formal","low","f_l","Major","3 4",1,7,4,3
-1,"1","1","1_01","Beethoven Ludwig van","f_ode_an_die_freude_1","f_ode_an_die_freude_1_low.mp3","formal","low","f_l","Major","4 4",4,7,2,5
-3,"1","2","2_01","Beethoven Ludwig van","f_ode_an_die_freude_1","f_ode_an_die_freude_1_high.mp3","formal","high","f_h","Major","4 4",6,7,7,5
-1,"34","1","1_34","Beethoven Ludwig van","f_ode_an_die_freude_2","f_ode_an_die_freude_2_high.mp3","formal","high","f_h","Major","4 4",5,7,7,3
-3,"34","2","2_34","Beethoven Ludwig van","f_ode_an_die_freude_2","f_ode_an_die_freude_2_low.mp3","formal","low","f_l","Major","4 4",5,7,4,3
-2,"63","1","1_63","Strauss Johann II","f_on_the_beautiful_blue_danube_op_314_1","f_on_the_beautiful_blue_danube_op_314_1_low.mp3","formal","low","f_l","Major","6 8",2,7,3,4
-4,"63","2","2_63","Strauss Johann II","f_on_the_beautiful_blue_danube_op_314_1","f_on_the_beautiful_blue_danube_op_314_1_high.mp3","formal","high","f_h","Major","6 8",3,7,7,4
-1,"20","1","1_20","Strauss Johann II","f_on_the_beautiful_blue_danube_op_314_2","f_on_the_beautiful_blue_danube_op_314_2_high.mp3","formal","high","f_h","Major","6 8",1,7,7,4
-3,"20","2","2_20","Strauss Johann II","f_on_the_beautiful_blue_danube_op_314_2","f_on_the_beautiful_blue_danube_op_314_2_low.mp3","formal","low","f_l","Major","6 8",2,7,3,4
-2,"92","1","1_92","Edvard Grieg","f_peer_gynt_suite_no_1_op_46_in_the_hall_of_the_mountain_king","f_peer_gynt_suite_no_1_op_46_in_the_hall_of_the_mountain_king_high.mp3","formal","high","f_h","Minor","4 4",5,7,7,3
-4,"92","2","2_92","Edvard Grieg","f_peer_gynt_suite_no_1_op_46_in_the_hall_of_the_mountain_king","f_peer_gynt_suite_no_1_op_46_in_the_hall_of_the_mountain_king_low.mp3","formal","low","f_l","Minor","4 4",6,7,4,3
-1,"43","1","1_43","Edvard Grieg","f_peer_gynt_suite_no_1_op_46_morning_mood","f_peer_gynt_suite_no_1_op_46_morning_mood_low.mp3","formal","low","f_l","Major","6 8",2,7,3,4
-3,"43","2","2_43","Edvard Grieg","f_peer_gynt_suite_no_1_op_46_morning_mood","f_peer_gynt_suite_no_1_op_46_morning_mood_high.mp3","formal","high","f_h","Major","6 8",1,7,7,4
-2,"96","1","1_96","Mozart Wolfgang Amadeus","f_piano_concerto_no_21_in_c_major_k467_andante","f_piano_concerto_no_21_in_c_major_k467_andante_low.mp3","formal","low","f_l","Major","4 4",3,7,2,5
-4,"96","2","2_96","Mozart Wolfgang Amadeus","f_piano_concerto_no_21_in_c_major_k467_andante","f_piano_concerto_no_21_in_c_major_k467_andante_high.mp3","formal","high","f_h","Major","4 4",1,7,7,5
-2,"71","1","1_71","Mozart Wolfgang Amadeus","f_piano_sonata_no_11_k_331_3rd_movement_rondo_alla_turca","f_piano_sonata_no_11_k_331_3rd_movement_rondo_alla_turca_high.mp3","formal","high","f_h","Minor","2 4",6,7,7,4
-4,"71","2","2_71","Mozart Wolfgang Amadeus","f_piano_sonata_no_11_k_331_3rd_movement_rondo_alla_turca","f_piano_sonata_no_11_k_331_3rd_movement_rondo_alla_turca_low.mp3","formal","low","f_l","Minor","2 4",6,7,3,4
-1,"18","1","1_18","Beethoven Ludwig van","f_piano_sonata_no_14_in_c-sharp_minor_op_272","f_piano_sonata_no_14_in_c-sharp_minor_op_272_low.mp3","formal","low","f_l","Minor","2 4",6,7,3,4
-3,"18","2","2_18","Beethoven Ludwig van","f_piano_sonata_no_14_in_c-sharp_minor_op_272","f_piano_sonata_no_14_in_c-sharp_minor_op_272_high.mp3","formal","high","f_h","Minor","2 4",4,7,7,4
-1,"14","1","1_14","Bach Johan Sebastian","f_prelude_no_1_bwv_846_in_c_major","f_prelude_no_1_bwv_846_in_c_major_high.mp3","formal","high","f_h","Major","4 4",7,7,7,3
-3,"14","2","2_14","Bach Johan Sebastian","f_prelude_no_1_bwv_846_in_c_major","f_prelude_no_1_bwv_846_in_c_major_low.mp3","formal","low","f_l","Major","4 4",7,7,4,3
-2,"95","1","1_95","Strauss Johann I","f_radetzky_march_op_228","f_radetzky_march_op_228_low.mp3","formal","low","f_l","Major","2 4",5,7,2,5
-4,"95","2","2_95","Strauss Johann I","f_radetzky_march_op_228","f_radetzky_march_op_228_high.mp3","formal","high","f_h","Major","2 4",5,7,7,5
-1,"45","1","1_45","Mozart Wolfgang Amadeus","f_requiem_in_d_minor_k_626_lacrimosa_dies_illa","f_requiem_in_d_minor_k_626_lacrimosa_dies_illa_high.mp3","formal","high","f_h","Minor","12 8",4,7,7,3
-3,"45","2","2_45","Mozart Wolfgang Amadeus","f_requiem_in_d_minor_k_626_lacrimosa_dies_illa","f_requiem_in_d_minor_k_626_lacrimosa_dies_illa_low.mp3","formal","low","f_l","Minor","12 8",1,7,4,3
-1,"6","1","1_06","Mozart Wolfgang Amadeus","f_serenade_no_13_in_g_major_k_525_1_intro","f_serenade_no_13_in_g_major_k_525_1_intro_low.mp3","formal","low","f_l","Major","4 4",5,7,3,4
-3,"6","2","2_06","Mozart Wolfgang Amadeus","f_serenade_no_13_in_g_major_k_525_1_intro","f_serenade_no_13_in_g_major_k_525_1_intro_high.mp3","formal","high","f_h","Major","4 4",5,7,7,4
-2,"90","1","1_90","Mozart Wolfgang Amadeus","f_serenade_no_13_in_g_major_k_525_2_second","f_serenade_no_13_in_g_major_k_525_2_second_high.mp3","formal","high","f_h","Major","4 4",5,7,7,4
-4,"90","2","2_90","Mozart Wolfgang Amadeus","f_serenade_no_13_in_g_major_k_525_2_second","f_serenade_no_13_in_g_major_k_525_2_second_low.mp3","formal","low","f_l","Major","4 4",5,7,3,4
-2,"64","1","1_64","Mozart Wolfgang Amadeus","f_symphony_no_40_in_g_minor_k_550","f_symphony_no_40_in_g_minor_k_550_low.mp3","formal","low","f_l","Minor","4 4",6,7,3,4
-4,"64","2","2_64","Mozart Wolfgang Amadeus","f_symphony_no_40_in_g_minor_k_550","f_symphony_no_40_in_g_minor_k_550_high.mp3","formal","high","f_h","Minor","4 4",2,7,7,4
-1,"19","1","1_19","Beethoven Ludwig van","f_symphony_no_5_op67","f_symphony_no_5_op67_high.mp3","formal","high","f_h","Minor","2 4",5,7,7,4
-3,"19","2","2_19","Beethoven Ludwig van","f_symphony_no_5_op67","f_symphony_no_5_op67_low.mp3","formal","low","f_l","Minor","2 4",2,7,3,4
-2,"74","1","1_74","Vivaldi Antonio","f_the_four_seasons_op_8_spring_concerto_in_e_major_rv_269","f_the_four_seasons_op_8_spring_concerto_in_e_major_rv_269_low.mp3","formal","low","f_l","Major","4 4",5,7,3,4
-4,"74","2","2_74","Vivaldi Antonio","f_the_four_seasons_op_8_spring_concerto_in_e_major_rv_269","f_the_four_seasons_op_8_spring_concerto_in_e_major_rv_269_high.mp3","formal","high","f_h","Major","4 4",5,7,7,4
-1,"40","1","1_40","Vivaldi Antonio","f_the_four_seasons_op_8_summer_concerto_in_g_minor_rv_315","f_the_four_seasons_op_8_summer_concerto_in_g_minor_rv_315_high.mp3","formal","high","f_h","Minor","3 4",7,7,7,4
-3,"40","2","2_40","Vivaldi Antonio","f_the_four_seasons_op_8_summer_concerto_in_g_minor_rv_315","f_the_four_seasons_op_8_summer_concerto_in_g_minor_rv_315_low.mp3","formal","low","f_l","Minor","3 4",7,7,3,4
-2,"89","1","1_89","Offenbach Jacques","f_the_tales_of_hoffmann_barcarolle","f_the_tales_of_hoffmann_barcarolle_low.mp3","formal","low","f_l","Major","6 8",2,7,2,5
-4,"89","2","2_89","Offenbach Jacques","f_the_tales_of_hoffmann_barcarolle","f_the_tales_of_hoffmann_barcarolle_high.mp3","formal","high","f_h","Major","6 8",2,7,7,5
-1,"48","1","1_48","Bach Johan Sebastian","f_toccata_and_fugue_in_d_minor","f_toccata_and_fugue_in_d_minor_high.mp3","formal","high","f_h","Minor","4 4",4,7,7,3
-3,"48","2","2_48","Bach Johan Sebastian","f_toccata_and_fugue_in_d_minor","f_toccata_and_fugue_in_d_minor_low.mp3","formal","low","f_l","Minor","4 4",2,7,4,3
-2,"59","1","1_59","Mendelssohn Felix","f_violin_concerto_op64","f_violin_concerto_op64_low.mp3","formal","low","f_l","Minor","4 4",7,7,4,3
-4,"59","2","2_59","Mendelssohn Felix","f_violin_concerto_op64","f_violin_concerto_op64_high.mp3","formal","high","f_h","Minor","4 4",6,7,7,3
-2,"58","1","1_58","Shostakovich Dmitri","f_waltz_n_2_sd","f_waltz_n_2_sd_high.mp3","formal","high","f_h","Minor","3 4",1,7,7,3
-4,"58","2","2_58","Shostakovich Dmitri","f_waltz_n_2_sd","f_waltz_n_2_sd_low.mp3","formal","low","f_l","Minor","3 4",2,7,4,3
-1,"41","1","1_41","Chopin Frederic","f_waltz_nr_2_op_64","f_waltz_nr_2_op_64_low.mp3","formal","low","f_l","Minor","3 4",3,7,3,4
-3,"41","2","2_41","Chopin Frederic","f_waltz_nr_2_op_64","f_waltz_nr_2_op_64_high.mp3","formal","high","f_h","Minor","3 4",2,7,7,4
-1,"36","1","1_36","Lizzo","i_about_damn_time","i_about_damn_time_high.mp3","informal","high","i_h","Major","4 4",5,7,3,2
-3,"36","2","2_36","Lizzo","i_about_damn_time","i_about_damn_time_low.mp3","informal","low","i_l","Major","4 4",7,7,1,2
-1,"24","1","1_24","Harry Styles","i_as_it_was_1","i_as_it_was_1_low.mp3","informal","low","i_l","Major","4 4",6,7,2,3
-3,"24","2","2_24","Harry Styles","i_as_it_was_1","i_as_it_was_1_high.mp3","informal","high","i_h","Major","4 4",7,7,5,3
-1,"49","1","1_49","Harry Styles","i_as_it_was_2","i_as_it_was_2_high.mp3","informal","high","i_h","Major","4 4",6,7,5,4
-3,"49","2","2_49","Harry Styles","i_as_it_was_2","i_as_it_was_2_low.mp3","informal","low","i_l","Major","4 4",6,7,1,4
-1,"8","1","1_08","ACDC","i_back_in_black","i_back_in_black_low.mp3","informal","low","i_l","Major","4 4",6,7,1,3
-3,"8","2","2_08","ACDC","i_back_in_black","i_back_in_black_high.mp3","informal","high","i_h","Major","4 4",3,7,4,3
-2,"52","1","1_52","Taylor Swift","i_bad_blood","i_bad_blood_high.mp3","informal","high","i_h","Major","4 4",4,7,5,2
-4,"52","2","2_52","Taylor Swift","i_bad_blood","i_bad_blood_low.mp3","informal","low","i_l","Major","4 4",6,7,3,2
-2,"73","1","1_73","Billie Eilish","i_bad_guy","i_bad_guy_low.mp3","informal","low","i_l","Major","4 4",5,7,1,4
-4,"73","2","2_73","Billie Eilish","i_bad_guy","i_bad_guy_high.mp3","informal","high","i_h","Major","4 4",6,7,5,4
-3,"4","2","2_04","Ed Sheeran","i_bad_habits","i_bad_habits_low.mp3","informal","low","i_l","Minor","4 4",6,7,2,0
-1,"4","1","1_04","Ed Sheeran","i_bad_habits_","i_bad_habits_high.mp3","informal","high","i_h","Minor","4 4",6,7,6,0
-2,"55","1","1_55","Lady Gaga","i_bad_romance_1","i_bad_romance_1_low.mp3","informal","low","i_l","Major","4 4",5,7,2,3
-4,"55","2","2_55","Lady Gaga","i_bad_romance_1","i_bad_romance_1_high.mp3","informal","high","i_h","Major","4 4",6,7,5,3
-2,"79","1","1_79","Lady Gaga","i_bad_romance_2","i_bad_romance_2_high.mp3","informal","high","i_h","Major","4 4",4,7,5,1
-4,"79","2","2_79","Lady Gaga","i_bad_romance_2","i_bad_romance_2_low.mp3","informal","low","i_l","Major","4 4",6,7,4,1
-1,"31","1","1_31","Aqua","i_barbie_girl","i_barbie_girl_low.mp3","informal","low","i_l","Major","4 4",7,7,1,3
-3,"31","2","2_31","Aqua","i_barbie_girl","i_barbie_girl_high.mp3","informal","high","i_h","Major","4 4",6,7,4,3
-2,"98","1","1_98","Maneskin","i_beggin","i_beggin_high.mp3","informal","high","i_h","Major","4 4",6,7,5,4
-4,"98","2","2_98","Maneskin","i_beggin","i_beggin_low.mp3","informal","low","i_l","Major","4 4",4,7,1,4
-1,"30","1","1_30","Taylor Swift","i_blank_space","i_blank_space_low.mp3","informal","low","i_l","Major","4 4",3,7,1,4
-3,"30","2","2_30","Taylor Swift","i_blank_space","i_blank_space_high.mp3","informal","high","i_h","Major","4 4",3,7,5,4
-2,"83","1","1_83","red hot chilli pepers","i_can_t_stop","i_can_t_stop_high.mp3","informal","high","i_h","Major","4 4",2,7,4,3
-4,"83","2","2_83","red hot chilli pepers","i_can_t_stop","i_can_t_stop_low.mp3","informal","low","i_l","Major","4 4",2,7,1,3
-2,"75","1","1_75","Sia","i_chandelier_1_123","i_chandelier_1_123_low.mp3","informal","low","i_l","Minor","4 4",3,7,1,2
-4,"75","2","2_75","Sia","i_chandelier_1_123","i_chandelier_1_123_high.mp3","informal","high","i_h","Minor","4 4",4,7,3,2
-1,"44","1","1_44","Sia","i_chandelier_2","i_chandelier_2_high.mp3","informal","high","i_h","Minor","4 4",2,7,5,3
-3,"44","2","2_44","Sia","i_chandelier_2","i_chandelier_2_low.mp3","informal","low","i_l","Minor","4 4",6,7,2,3
-1,"22","1","1_22","Sia","i_cheap_thrills_1_intro","i_cheap_thrills_1_intro_high.mp3","informal","high","i_h","Minor","4 4",5,7,3,0
-3,"22","2","2_22","Sia","i_cheap_thrills_1_intro","i_cheap_thrills_1_intro_low.mp3","informal","low","i_l","Minor","4 4",6,7,3,0
-1,"15","1","1_15","Sia","i_cheap_thrills_2","i_cheap_thrills_2_low.mp3","informal","low","i_l","Minor","4 4",3,7,1,4
-3,"15","2","2_15","Sia","i_cheap_thrills_2","i_cheap_thrills_2_high.mp3","informal","high","i_h","Minor","4 4",6,7,5,4
-2,"72","1","1_72","Rihanna","i_disturbia","i_disturbia_low.mp3","informal","low","i_l","Major","4 4",3,7,1,3
-4,"72","2","2_72","Rihanna","i_disturbia","i_disturbia_high.mp3","informal","high","i_h","Major","4 4",4,7,4,3
-1,"23","1","1_23","Dua Lipa","i_don_t_start_now","i_don_t_start_now_high.mp3","informal","high","i_h","Major","4 4",6,7,3,1
-3,"23","2","2_23","Dua Lipa","i_don_t_start_now","i_don_t_start_now_low.mp3","informal","low","i_l","Major","4 4",6,7,2,1
-1,"9","1","1_09","Cyrus Miley","i_flowers","i_flowers_low.mp3","informal","low","i_l","Major","4 4",6,7,1,4
-3,"9","2","2_09","Cyrus Miley","i_flowers","i_flowers_high.mp3","informal","high","i_h","Major","4 4",2,7,5,4
-1,"29","1","1_29","olivia rodrigo","i_good_for_you","i_good_for_you_high.mp3","informal","high","i_h","Major","4 4",6,7,3,1
-3,"29","2","2_29","olivia rodrigo","i_good_for_you","i_good_for_you_low.mp3","informal","low","i_l","Major","4 4",7,7,2,1
-1,"5","1","1_05","Camilla Cabello","i_havana","i_havana_low.mp3","informal","low","i_l","Minor","4 4",5,7,1,3
-3,"5","2","2_05","Camilla Cabello","i_havana","i_havana_high.mp3","informal","high","i_h","Minor","4 4",4,7,4,3
-2,"80","1","1_80","rag n bone man","i_human","i_human_high.mp3","informal","high","i_h","Minor","4 4",3,7,6,3
-4,"80","2","2_80","rag n bone man","i_human","i_human_low.mp3","informal","low","i_l","Minor","4 4",2,7,3,3
-2,"97","1","1_97","Taylor Swift","i_i_knew_you_were_trouble","i_i_knew_you_were_trouble_low.mp3","informal","low","i_l","Major","4 4",4,7,2,3
-4,"97","2","2_97","Taylor Swift","i_i_knew_you_were_trouble","i_i_knew_you_were_trouble_high.mp3","informal","high","i_h","Major","4 4",4,7,5,3
-1,"46","1","1_46","Eiffel 65","i_i_m_blue","i_i_m_blue_high.mp3","informal","high","i_h","Minor","4 4",2,7,3,2
-3,"46","2","2_46","Eiffel 65","i_i_m_blue","i_i_m_blue_low.mp3","informal","low","i_l","Minor","4 4",1,7,1,2
-2,"61","1","1_61","Ava Max","i_kings_and_queens","i_kings_and_queens_low.mp3","informal","low","i_l","Minor","4 4",2,7,2,2
-4,"61","2","2_61","Ava Max","i_kings_and_queens","i_kings_and_queens_high.mp3","informal","high","i_h","Minor","4 4",4,7,4,2
-2,"88","1","1_88","Dua Lipa","i_levitating","i_levitating_high.mp3","informal","high","i_h","Major","4 4",7,7,5,4
-4,"88","2","2_88","Dua Lipa","i_levitating","i_levitating_low.mp3","informal","low","i_l","Major","4 4",7,7,1,4
-1,"21","1","1_21","Dua Lipa","i_new_rules","i_new_rules_low.mp3","informal","low","i_l","Minor","4 4",7,7,1,3
-3,"21","2","2_21","Dua Lipa","i_new_rules","i_new_rules_high.mp3","informal","high","i_h","Minor","4 4",7,7,4,3
-1,"28","1","1_28","Britney Spears","i_ooops_I_did_it_again","i_ooops_I_did_it_again_high.mp3","informal","high","i_h","Minor","4 4",6,7,3,0
-3,"28","2","2_28","Britney Spears","i_ooops_i_did_it_again","i_ooops_I_did_it_again_low.mp3","informal","low","i_l","Minor","4 4",4,7,4,0
-2,"85","1","1_85","Lady Gaga","i_poker_face","i_poker_face_low.mp3","informal","low","i_l","Major","4 4",6,7,2,3
-4,"85","2","2_85","Lady Gaga","i_poker_face","i_poker_face_high.mp3","informal","high","i_h","Major","4 4",3,7,5,3
-1,"32","1","1_32","Bishop Briggs","i_river","i_river_high.mp3","informal","high","i_h","Minor","4 4",4,7,4,1
-3,"32","2","2_32","Bishop Briggs","i_river","i_river_low.mp3","informal","low","i_l","Minor","4 4",3,7,3,1
-2,"66","1","1_66","Katy Perry","i_roar","i_roar_low.mp3","informal","low","i_l","Major","4 4",6,7,1,3
-4,"66","2","2_66","Katy Perry","i_roar","i_roar_high.mp3","informal","high","i_h","Major","4 4",6,7,4,3
-2,"81","1","1_81","Camilla Cabello","i_senorita","i_senorita_high.mp3","informal","high","i_h","Minor","4 4",5,7,3,2
-4,"81","2","2_81","Camilla Cabello","i_senorita","i_senorita_low.mp3","informal","low","i_l","Minor","4 4",4,7,1,2
-2,"94","1","1_94","The white stripes","i_seven_nation_army","i_seven_nation_army_low.mp3","informal","low","i_l","Major","4 4",3,7,2,2
-4,"94","2","2_94","The white stripes","i_seven_nation_army","i_seven_nation_army_high.mp3","informal","high","i_h","Major","4 4",1,7,4,2
-2,"65","1","1_65","Ariana Grande","i_seven_rings","i_seven_rings_high.mp3","informal","high","i_h","Minor","4 4",4,7,5,3
-4,"65","2","2_65","Ariana Grande","i_seven_rings","i_seven_rings_low.mp3","informal","low","i_l","Minor","4 4",3,7,2,3
-1,"25","1","1_25","Ed Sheeran","i_shape_of_you_1","i_shape_of_you_1_low.mp3","informal","low","i_l","Minor","4 4",6,7,1,2
-3,"25","2","2_25","Ed Sheeran","i_shape_of_you_1","i_shape_of_you_1_high.mp3","informal","high","i_h","Minor","4 4",6,7,3,2
-1,"7","1","1_07","Ed Sheeran","i_shape_of_you_2","i_shape_of_you_2_high.mp3","informal","high","i_h","Minor","4 4",6,7,5,4
-3,"7","2","2_07","Ed Sheeran","i_shape_of_you_2","i_shape_of_you_2_low.mp3","informal","low","i_l","Minor","4 4",5,7,1,4
-2,"99","1","1_99","Ed Sheeran","i_shivers","i_shivers_low.mp3","informal","low","i_l","Minor","4 4",4,7,2,3
-4,"99","2","2_99","Ed Sheeran","i_shivers","i_shivers_high.mp3","informal","high","i_h","Minor","4 4",4,7,5,3
-1,"12","1","1_12","Nirvana","i_smells_like_teen_spirit","i_smells_like_teen_spirit_high.mp3","informal","high","i_h","Minor","4 4",5,7,5,4
-3,"12","2","2_12","Nirvana","i_smells_like_teen_spirit","i_smells_like_teen_spirit_low.mp3","informal","low","i_l","Minor","4 4",5,7,1,4
-2,"70","1","1_70","Lana Del Ray","i_summertime_sadness_1","i_summertime_sadness_1_low.mp3","informal","low","i_l","Minor","4 4",1,7,2,2
-4,"70","2","2_70","Lana Del Ray","i_summertime_sadness_1","i_summertime_sadness_1_high.mp3","informal","high","i_h","Minor","4 4",2,7,4,2
-2,"68","1","1_68","Lana Del Ray","i_summertime_sadness_2","i_summertime_sadness_2_high.mp3","informal","high","i_h","Minor","4 4",4,7,4,3
-4,"68","2","2_68","Lana Del Ray","i_summertime_sadness_2","i_summertime_sadness_2_low.mp3","informal","low","i_l","Minor","4 4",1,7,1,3
-1,"2","1","1_02","Marilyn Manson","i_sweet_dreams","i_sweet_dreams_low.mp3","informal","low","i_l","Major","4 4",5,7,1,4
-3,"2","2","2_02","Marilyn Manson","i_sweet_dreams","i_sweet_dreams_high.mp3","informal","high","i_h","Major","4 4",2,7,5,4
-2,"76","1","1_76","Ariana Grande","i_thank_you_next","i_thank_you_next_high.mp3","informal","high","i_h","Major","4 4",5,7,6,4
-4,"76","2","2_76","Ariana Grande","i_thank_you_next","i_thank_you_next_low.mp3","informal","low","i_l","Major","4 4",5,7,2,4
-2,"53","1","1_53","Britney Spears","i_toxic_1","i_toxic_1_low.mp3","informal","low","i_l","Minor","4 4",2,7,1,3
-4,"53","2","2_53","Britney Spears","i_toxic_1","i_toxic_1_high.mp3","informal","high","i_h","Minor","4 4",6,7,4,3
-2,"77","1","1_77","Britney Spears","i_toxic_2","i_toxic_2_high.mp3","informal","high","i_h","Minor","4 4",3,7,5,4
-4,"77","2","2_77","Britney Spears","i_toxic_2","i_toxic_2_low.mp3","informal","low","i_l","Minor","4 4",3,7,1,4
-1,"11","1","1_11","sam smith","i_unholy","i_unholy_low.mp3","informal","low","i_l","Minor","4 4",3,7,1,4
-3,"11","2","2_11","sam smith","i_unholy","i_unholy_high.mp3","informal","high","i_h","Minor","4 4",5,7,5,4
-2,"54","1","1_54","Harry Styles","i_watermelon_sugar","i_watermelon_sugar_high.mp3","informal","high","i_h","Major","4 4",7,7,5,3
-4,"54","2","2_54","Harry Styles","i_watermelon_sugar","i_watermelon_sugar_low.mp3","informal","low","i_l","Major","4 4",7,7,2,3
-1,"10","1","1_10","Queen","i_we_will_rock_you","i_we_will_rock_you_low.mp3","informal","low","i_l","Major","4 4",2,7,1,5
-3,"10","2","2_10","Queen","i_we_will_rock_you","i_we_will_rock_you_high.mp3","informal","high","i_h","Major","4 4",1,7,6,5
-2,"82","1","1_82","Miley Cirus","i_wrecking_ball","i_wrecking_ball_high.mp3","informal","high","i_h","Minor","4 4",2,7,5,3
-4,"82","2","2_82","Miley Cirus","i_wrecking_ball","i_wrecking_ball_low.mp3","informal","low","i_l","Minor","4 4",1,7,2,3
-1,"37","1","1_37","the cranberries","i_zombie","i_zombie_low.mp3","informal","low","i_l","Minor","4 4",6,7,1,4
-3,"37","2","2_37","the cranberries","i_zombie","i_zombie_high.mp3","informal","high","i_h","Minor","4 4",4,7,5,4
+px,item,list,heritage,instruments,condition,tonality,rhythm,tempo_rating,familiarity_rating,formality_rating,formality_differences
+1,42,1,formal,high,f_h,Minor,3 8,6,7,7,3
+3,42,2,formal,low,f_l,Minor,3 8,5,7,4,3
+2,57,1,formal,low,f_l,Major,2 4,6,7,3,3
+4,57,2,formal,high,f_h,Major,2 4,6,7,6,3
+2,87,1,formal,high,f_h,Major,2 4,5,7,7,2
+4,87,2,formal,low,f_l,Major,2 4,5,7,5,2
+1,38,1,formal,low,f_l,Major,2 4,4,7,4,2
+3,38,2,formal,high,f_h,Major,2 4,6,7,6,2
+2,100,1,formal,high,f_h,Major,4 4,7,7,7,3
+4,100,2,formal,low,f_l,Major,4 4,7,7,4,3
+1,39,1,formal,low,f_l,Minor,2 4,6,7,4,2
+3,39,2,formal,high,f_h,Minor,2 4,5,7,6,2
+1,3,1,formal,high,f_h,Minor,3 1,1,7,7,4
+3,3,2,formal,low,f_l,Minor,3 1,2,7,3,4
+1,17,1,formal,low,f_l,Minor,3 1,1,7,3,4
+3,17,2,formal,high,f_h,Minor,3 1,1,7,7,4
+2,67,1,formal,high,f_h,Minor,3 2,5,7,7,2
+4,67,2,formal,low,f_l,Minor,3 2,5,7,5,2
+2,93,1,formal,low,f_l,Major,4 4,7,7,4,3
+4,93,2,formal,high,f_h,Major,4 4,7,7,7,3
+2,60,1,formal,high,f_h,Minor,4 4,7,7,7,4
+4,60,2,formal,low,f_l,Minor,4 4,7,7,3,4
+1,35,1,formal,low,f_l,Minor,4 4,4,7,4,0
+3,35,2,formal,high,f_h,Minor,4 4,2,7,4,0
+2,62,1,formal,high,f_h,Major,3 4,3,7,6,2
+4,62,2,formal,low,f_l,Major,3 4,2,7,4,2
+2,51,1,formal,low,f_l,Minor,2 4,4,7,4,3
+4,51,2,formal,high,f_h,Minor,2 4,5,7,7,3
+1,27,1,formal,high,f_h,Minor,2 4,6,7,6,3
+3,27,2,formal,low,f_l,Minor,2 4,5,7,3,3
+2,86,1,formal,low,f_l,Minor,4 4,6,7,2,5
+4,86,2,formal,high,f_h,Minor,4 4,6,7,7,5
+2,91,1,formal,high,f_h,Minor,6 8,7,7,7,3
+4,91,2,formal,low,f_l,Minor,6 8,7,7,4,3
+1,47,1,formal,low,f_l,Minor,2 4,6,7,4,2
+3,47,2,formal,high,f_h,Minor,2 4,6,7,6,2
+2,56,1,formal,high,f_h,Major,3 8,6,7,7,4
+4,56,2,formal,low,f_l,Major,3 8,7,7,3,4
+1,16,1,formal,low,f_l,Major,4 4,2,7,3,4
+3,16,2,formal,high,f_h,Major,4 4,3,7,7,4
+1,26,1,formal,high,f_h,Minor,3 8,2,7,7,4
+3,26,2,formal,low,f_l,Minor,3 8,1,7,3,4
+1,33,1,formal,low,f_l,Major,12 8,2,7,4,3
+3,33,2,formal,high,f_h,Major,12 8,5,7,7,3
+2,78,1,formal,high,f_h,Major,2 4,6,7,7,4
+4,78,2,formal,low,f_l,Major,2 4,6,7,3,4
+2,69,1,formal,low,f_l,Minor,2 4,4,7,3,4
+4,69,2,formal,high,f_h,Minor,2 4,2,7,7,4
+2,84,1,formal,high,f_h,Major,4 4,7,7,7,4
+4,84,2,formal,low,f_l,Major,4 4,6,7,3,4
+1,50,1,formal,low,f_l,Major,2 4,6,7,3,4
+3,50,2,formal,high,f_h,Major,2 4,7,7,7,4
+1,13,1,formal,high,f_h,Major,3 4,3,7,7,3
+3,13,2,formal,low,f_l,Major,3 4,1,7,4,3
+1,1,1,formal,low,f_l,Major,4 4,4,7,2,5
+3,1,2,formal,high,f_h,Major,4 4,6,7,7,5
+1,34,1,formal,high,f_h,Major,4 4,5,7,7,3
+3,34,2,formal,low,f_l,Major,4 4,5,7,4,3
+2,63,1,formal,low,f_l,Major,6 8,2,7,3,4
+4,63,2,formal,high,f_h,Major,6 8,3,7,7,4
+1,20,1,formal,high,f_h,Major,6 8,1,7,7,4
+3,20,2,formal,low,f_l,Major,6 8,2,7,3,4
+2,92,1,formal,high,f_h,Minor,4 4,5,7,7,3
+4,92,2,formal,low,f_l,Minor,4 4,6,7,4,3
+1,43,1,formal,low,f_l,Major,6 8,2,7,3,4
+3,43,2,formal,high,f_h,Major,6 8,1,7,7,4
+2,96,1,formal,low,f_l,Major,4 4,3,7,2,5
+4,96,2,formal,high,f_h,Major,4 4,1,7,7,5
+2,71,1,formal,high,f_h,Minor,2 4,6,7,7,4
+4,71,2,formal,low,f_l,Minor,2 4,6,7,3,4
+1,18,1,formal,low,f_l,Minor,2 4,6,7,3,4
+3,18,2,formal,high,f_h,Minor,2 4,4,7,7,4
+1,14,1,formal,high,f_h,Major,4 4,7,7,7,3
+3,14,2,formal,low,f_l,Major,4 4,7,7,4,3
+2,95,1,formal,low,f_l,Major,2 4,5,7,2,5
+4,95,2,formal,high,f_h,Major,2 4,5,7,7,5
+1,45,1,formal,high,f_h,Minor,12 8,4,7,7,3
+3,45,2,formal,low,f_l,Minor,12 8,1,7,4,3
+1,6,1,formal,low,f_l,Major,4 4,5,7,3,4
+3,6,2,formal,high,f_h,Major,4 4,5,7,7,4
+2,90,1,formal,high,f_h,Major,4 4,5,7,7,4
+4,90,2,formal,low,f_l,Major,4 4,5,7,3,4
+2,64,1,formal,low,f_l,Minor,4 4,6,7,3,4
+4,64,2,formal,high,f_h,Minor,4 4,2,7,7,4
+1,19,1,formal,high,f_h,Minor,2 4,5,7,7,4
+3,19,2,formal,low,f_l,Minor,2 4,2,7,3,4
+2,74,1,formal,low,f_l,Major,4 4,5,7,3,4
+4,74,2,formal,high,f_h,Major,4 4,5,7,7,4
+1,40,1,formal,high,f_h,Minor,3 4,7,7,7,4
+3,40,2,formal,low,f_l,Minor,3 4,7,7,3,4
+2,89,1,formal,low,f_l,Major,6 8,2,7,2,5
+4,89,2,formal,high,f_h,Major,6 8,2,7,7,5
+1,48,1,formal,high,f_h,Minor,4 4,4,7,7,3
+3,48,2,formal,low,f_l,Minor,4 4,2,7,4,3
+2,59,1,formal,low,f_l,Minor,4 4,7,7,4,3
+4,59,2,formal,high,f_h,Minor,4 4,6,7,7,3
+2,58,1,formal,high,f_h,Minor,3 4,1,7,7,3
+4,58,2,formal,low,f_l,Minor,3 4,2,7,4,3
+1,41,1,formal,low,f_l,Minor,3 4,3,7,3,4
+3,41,2,formal,high,f_h,Minor,3 4,2,7,7,4
+1,36,1,informal,high,i_h,Major,4 4,5,7,3,2
+3,36,2,informal,low,i_l,Major,4 4,7,7,1,2
+1,24,1,informal,low,i_l,Major,4 4,6,7,2,3
+3,24,2,informal,high,i_h,Major,4 4,7,7,5,3
+1,49,1,informal,high,i_h,Major,4 4,6,7,5,4
+3,49,2,informal,low,i_l,Major,4 4,6,7,1,4
+1,8,1,informal,low,i_l,Major,4 4,6,7,1,3
+3,8,2,informal,high,i_h,Major,4 4,3,7,4,3
+2,52,1,informal,high,i_h,Major,4 4,4,7,5,2
+4,52,2,informal,low,i_l,Major,4 4,6,7,3,2
+2,73,1,informal,low,i_l,Major,4 4,5,7,1,4
+4,73,2,informal,high,i_h,Major,4 4,6,7,5,4
+3,4,2,informal,low,i_l,Minor,4 4,6,7,2,0
+1,4,1,informal,high,i_h,Minor,4 4,6,7,6,0
+2,55,1,informal,low,i_l,Major,4 4,5,7,2,3
+4,55,2,informal,high,i_h,Major,4 4,6,7,5,3
+2,79,1,informal,high,i_h,Major,4 4,4,7,5,1
+4,79,2,informal,low,i_l,Major,4 4,6,7,4,1
+1,31,1,informal,low,i_l,Major,4 4,7,7,1,3
+3,31,2,informal,high,i_h,Major,4 4,6,7,4,3
+2,98,1,informal,high,i_h,Major,4 4,6,7,5,4
+4,98,2,informal,low,i_l,Major,4 4,4,7,1,4
+1,30,1,informal,low,i_l,Major,4 4,3,7,1,4
+3,30,2,informal,high,i_h,Major,4 4,3,7,5,4
+2,83,1,informal,high,i_h,Major,4 4,2,7,4,3
+4,83,2,informal,low,i_l,Major,4 4,2,7,1,3
+2,75,1,informal,low,i_l,Minor,4 4,3,7,1,2
+4,75,2,informal,high,i_h,Minor,4 4,4,7,3,2
+1,44,1,informal,high,i_h,Minor,4 4,2,7,5,3
+3,44,2,informal,low,i_l,Minor,4 4,6,7,2,3
+1,22,1,informal,high,i_h,Minor,4 4,5,7,3,0
+3,22,2,informal,low,i_l,Minor,4 4,6,7,3,0
+1,15,1,informal,low,i_l,Minor,4 4,3,7,1,4
+3,15,2,informal,high,i_h,Minor,4 4,6,7,5,4
+2,72,1,informal,low,i_l,Major,4 4,3,7,1,3
+4,72,2,informal,high,i_h,Major,4 4,4,7,4,3
+1,23,1,informal,high,i_h,Major,4 4,6,7,3,1
+3,23,2,informal,low,i_l,Major,4 4,6,7,2,1
+1,9,1,informal,low,i_l,Major,4 4,6,7,1,4
+3,9,2,informal,high,i_h,Major,4 4,2,7,5,4
+1,29,1,informal,high,i_h,Major,4 4,6,7,3,1
+3,29,2,informal,low,i_l,Major,4 4,7,7,2,1
+1,5,1,informal,low,i_l,Minor,4 4,5,7,1,3
+3,5,2,informal,high,i_h,Minor,4 4,4,7,4,3
+2,80,1,informal,high,i_h,Minor,4 4,3,7,6,3
+4,80,2,informal,low,i_l,Minor,4 4,2,7,3,3
+2,97,1,informal,low,i_l,Major,4 4,4,7,2,3
+4,97,2,informal,high,i_h,Major,4 4,4,7,5,3
+1,46,1,informal,high,i_h,Minor,4 4,2,7,3,2
+3,46,2,informal,low,i_l,Minor,4 4,1,7,1,2
+2,61,1,informal,low,i_l,Minor,4 4,2,7,2,2
+4,61,2,informal,high,i_h,Minor,4 4,4,7,4,2
+2,88,1,informal,high,i_h,Major,4 4,7,7,5,4
+4,88,2,informal,low,i_l,Major,4 4,7,7,1,4
+1,21,1,informal,low,i_l,Minor,4 4,7,7,1,3
+3,21,2,informal,high,i_h,Minor,4 4,7,7,4,3
+1,28,1,informal,high,i_h,Minor,4 4,6,7,3,0
+3,28,2,informal,low,i_l,Minor,4 4,4,7,4,0
+2,85,1,informal,low,i_l,Major,4 4,6,7,2,3
+4,85,2,informal,high,i_h,Major,4 4,3,7,5,3
+1,32,1,informal,high,i_h,Minor,4 4,4,7,4,1
+3,32,2,informal,low,i_l,Minor,4 4,3,7,3,1
+2,66,1,informal,low,i_l,Major,4 4,6,7,1,3
+4,66,2,informal,high,i_h,Major,4 4,6,7,4,3
+2,81,1,informal,high,i_h,Minor,4 4,5,7,3,2
+4,81,2,informal,low,i_l,Minor,4 4,4,7,1,2
+2,94,1,informal,low,i_l,Major,4 4,3,7,2,2
+4,94,2,informal,high,i_h,Major,4 4,1,7,4,2
+2,65,1,informal,high,i_h,Minor,4 4,4,7,5,3
+4,65,2,informal,low,i_l,Minor,4 4,3,7,2,3
+1,25,1,informal,low,i_l,Minor,4 4,6,7,1,2
+3,25,2,informal,high,i_h,Minor,4 4,6,7,3,2
+1,7,1,informal,high,i_h,Minor,4 4,6,7,5,4
+3,7,2,informal,low,i_l,Minor,4 4,5,7,1,4
+2,99,1,informal,low,i_l,Minor,4 4,4,7,2,3
+4,99,2,informal,high,i_h,Minor,4 4,4,7,5,3
+1,12,1,informal,high,i_h,Minor,4 4,5,7,5,4
+3,12,2,informal,low,i_l,Minor,4 4,5,7,1,4
+2,70,1,informal,low,i_l,Minor,4 4,1,7,2,2
+4,70,2,informal,high,i_h,Minor,4 4,2,7,4,2
+2,68,1,informal,high,i_h,Minor,4 4,4,7,4,3
+4,68,2,informal,low,i_l,Minor,4 4,1,7,1,3
+1,2,1,informal,low,i_l,Major,4 4,5,7,1,4
+3,2,2,informal,high,i_h,Major,4 4,2,7,5,4
+2,76,1,informal,high,i_h,Major,4 4,5,7,6,4
+4,76,2,informal,low,i_l,Major,4 4,5,7,2,4
+2,53,1,informal,low,i_l,Minor,4 4,2,7,1,3
+4,53,2,informal,high,i_h,Minor,4 4,6,7,4,3
+2,77,1,informal,high,i_h,Minor,4 4,3,7,5,4
+4,77,2,informal,low,i_l,Minor,4 4,3,7,1,4
+1,11,1,informal,low,i_l,Minor,4 4,3,7,1,4
+3,11,2,informal,high,i_h,Minor,4 4,5,7,5,4
+2,54,1,informal,high,i_h,Major,4 4,7,7,5,3
+4,54,2,informal,low,i_l,Major,4 4,7,7,2,3
+1,10,1,informal,low,i_l,Major,4 4,2,7,1,5
+3,10,2,informal,high,i_h,Major,4 4,1,7,6,5
+2,82,1,informal,high,i_h,Minor,4 4,2,7,5,3
+4,82,2,informal,low,i_l,Minor,4 4,1,7,2,3
+1,37,1,informal,low,i_l,Minor,4 4,6,7,1,4
+3,37,2,informal,high,i_h,Minor,4 4,4,7,5,4

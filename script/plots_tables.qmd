@@ -8,24 +8,28 @@ format:
     execute:
       echo: true
       eval: true
-      warnings: false
-      messages: false
+      warning: false
+      message: false
 editor_options: 
   chunk_output_type: console
 ---
+
+This script loads in example Likert-scale data and produces plots and summary tables. The plots and tables are then saved externally.
 
 # Packages
 
 Install necessary packages if not done already.
 
 ```{r}
+#| code-fold: true
 #| eval: false
 install.packages("pacman")
-# webshot::install_phantomjs()
 ```
 
+Load in packages
 
 ```{r}
+#| code-fold: true
 pacman::p_load(tidyverse,
                here,
                knitr,
@@ -38,7 +42,6 @@ pacman::p_load(tidyverse,
 
 ```{r}
 df_toydata <- read_csv(here::here("data", "df_toydata.csv")) %>% 
-  select(-item_in_list, -audiofile) %>% 
   mutate(condition = paste(heritage,instruments, sep="_")) %>% 
   mutate(tempo_centred = tempo_rating - 4,
          familiarity_centred = familiarity_rating - 4,
@@ -48,15 +51,16 @@ df_toydata <- read_csv(here::here("data", "df_toydata.csv")) %>%
 ```
 
 ```{r}
-df_toydata %>% summary()
+df_toydata %>% summary() %>% kbl() %>% kable_styling()
 ```
 
 # Plots
 
 ## All scales by language
 
-```{r}
+Create preferred facet labels.
 
+```{r}
 facet_labels <-
   c(
     "tempo_centred" = "Tempo",
@@ -65,6 +69,12 @@ facet_labels <-
     "formality_diff_centred" = "Formality Difference"
     
   )
+```
+
+Generate plot.
+
+```{r}
+#| code-fold: true
 
 fig_scales_heritage <-
   df_toydata %>%
@@ -111,6 +121,7 @@ fig_scales_heritage <-
 fig_scales_heritage
 ```
 
+Save plot.
 
 ```{r}
 ggsave(here("plots","barplot_4scales_heritage.jpeg"),
@@ -126,7 +137,7 @@ ggsave(here("plots","barplot_4scales_heritage.jpeg"),
 ### Familiarity
 
 ```{r}
-
+#| code-fold: true
 fig_familiarity <-
   df_toydata %>%
   mutate(familiarity_centred = factor(
@@ -160,6 +171,7 @@ fig_familiarity <-
 fig_familiarity
 ```
 
+Save plot.
 
 ```{r}
 ggsave(here("plots","barplot_familiarty.jpeg"),
@@ -174,7 +186,7 @@ ggsave(here("plots","barplot_familiarty.jpeg"),
 ### Formality
 
 ```{r}
-
+#| code-fold: true
 fig_formality <-
   df_toydata %>%
   mutate(formality_centred = factor(
@@ -208,6 +220,7 @@ fig_formality <-
 fig_formality
 ```
 
+Save plot.
 
 ```{r}
 ggsave(here("plots","barplot_familiarty.jpeg"),
@@ -221,6 +234,7 @@ ggsave(here("plots","barplot_familiarty.jpeg"),
 ### Tempo
 
 ```{r}
+#| code-fold: true
 fig_tempo <-
   df_toydata %>%
   mutate(tempo_centred = factor(
@@ -254,6 +268,7 @@ fig_tempo <-
 fig_tempo
 ```
 
+Save plot.
 
 ```{r}
 ggsave(here("plots","barplot_tempo.jpeg"),
@@ -267,6 +282,7 @@ ggsave(here("plots","barplot_tempo.jpeg"),
 ### Formality differences
 
 ```{r}
+#| code-fold: true
 fig_formality_diff <-
   df_toydata %>%
   mutate(formality_diff_centred = factor(
@@ -300,6 +316,7 @@ fig_formality_diff <-
 fig_formality_diff
 ```
 
+Save plot.
 
 ```{r}
 ggsave(here("plots","barplot_formality_diff.jpeg"),
@@ -312,6 +329,7 @@ ggsave(here("plots","barplot_formality_diff.jpeg"),
 
 ## Instruments
 
+Create preferred labels for `instruments`.
 ```{r}
 instrument_labels <-
   c(
@@ -323,6 +341,7 @@ instrument_labels <-
 ### Formal
 
 ```{r}
+#| code-fold: true
 fig_formal_instruments <-
   df_toydata %>%
   filter(heritage == "formal") %>%
@@ -364,6 +383,7 @@ fig_formal_instruments <-
 fig_formal_instruments
 ```
 
+Save plot.
 
 ```{r}
 ggsave(here("plots", "barplot_formal_instruments.jpeg"),
@@ -377,6 +397,7 @@ ggsave(here("plots", "barplot_formal_instruments.jpeg"),
 ### Informal
 
 ```{r}
+#| code-fold: true
 fig_informal_instruments <-
   df_toydata %>%
   filter(heritage == "informal") %>%
@@ -418,6 +439,7 @@ fig_informal_instruments <-
 fig_informal_instruments
 ```
 
+Save plot.
 
 ```{r}
 ggsave(here("plots", "barplot_informal_instruments.jpeg"),
@@ -430,9 +452,12 @@ ggsave(here("plots", "barplot_informal_instruments.jpeg"),
 
 # Summary tables
 
+Create summary tables.
+
 ## Language and scale
 
 ```{r}
+#| code-fold: true
 tbl_ratings <-
 df_toydata %>% 
   pivot_longer(
@@ -456,6 +481,7 @@ df_toydata %>%
 tbl_ratings
 ```
 
+Save table as `.png`.
 
 ```{r}
 kableExtra::save_kable(tbl_ratings, here("tables", "summary_4scales_heritage.png"))
@@ -463,9 +489,10 @@ kableExtra::save_kable(tbl_ratings, here("tables", "summary_4scales_heritage.png
 
 ## Instruments
 
-### Formal
+### Formal heritage
 
 ```{r}
+#| code-fold: true
 tbl_formal <-
 df_toydata %>% 
   filter(heritage == "formal") %>% 
@@ -490,13 +517,16 @@ df_toydata %>%
 tbl_formal
 ```
 
+Save table as `.png`.
+
 ```{r}
 kableExtra::save_kable(tbl_formal, here("tables", "summary_formal_instruments.png"))
 ```
 
-### Formal
+### Informal heritage
 
 ```{r}
+#| code-fold: true
 tbl_informal <-
 df_toydata %>% 
   filter(heritage == "informal") %>% 
@@ -520,6 +550,8 @@ df_toydata %>%
 ```{r}
 tbl_informal
 ```
+
+Save table as `.png`.
 
 ```{r}
 kableExtra::save_kable(tbl_informal, here("tables", "summary_informal_instruments.png"))

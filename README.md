@@ -2,6 +2,8 @@
 
 Reproducible script for visualising Likert scale data.
 
+These materials were created by Daniela Palleschi.
+
 ## Purpose
 
 Guide for students and colleagues to produce barplots and tables to visualise the distribution of/summarise Likert data.
