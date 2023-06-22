@@ -1,0 +1,526 @@
+---
+title: "Likert scale"
+author: "Daniela Palleschi"
+date: "`r Sys.Date()`"
+format: 
+  html:
+    toc: true
+    execute:
+      echo: true
+      eval: true
+      warnings: false
+      messages: false
+editor_options: 
+  chunk_output_type: console
+---
+
+# Packages
+
+Install necessary packages if not done already.
+
+```{r}
+#| eval: false
+install.packages("pacman")
+# webshot::install_phantomjs()
+```
+
+
+```{r}
+pacman::p_load(tidyverse,
+               here,
+               knitr,
+               kableExtra,
+               magick)
+```
+
+
+# read in data
+
+```{r}
+df_toydata <- read_csv(here::here("data", "df_toydata.csv")) %>% 
+  select(-item_in_list, -audiofile) %>% 
+  mutate(condition = paste(heritage,instruments, sep="_")) %>% 
+  mutate(tempo_centred = tempo_rating - 4,
+         familiarity_centred = familiarity_rating - 4,
+         formality_centred = formality_rating - 4,
+         formality_diff_centred = formality_differences - 4
+         )
+```
+
+```{r}
+df_toydata %>% summary()
+```
+
+# Plots
+
+## All scales by language
+
+```{r}
+
+facet_labels <-
+  c(
+    "tempo_centred" = "Tempo",
+    "familiarity_centred" =  "Familiarity",
+    "formality_centred" = "Formality",
+    "formality_diff_centred" = "Formality Difference"
+    
+  )
+
+fig_scales_heritage <-
+  df_toydata %>%
+  mutate(tempo_centred = factor(tempo_centred,
+                                levels = c("-3", "-2", "-1", "0", "1", "2", "3"))) %>%
+  mutate(familiarity_centred = factor(familiarity_centred, levels = c("-3", "-2", "-1", "0", "1", "2", "3")
+  )) %>%
+  mutate(formality_centred = factor(formality_centred, levels = c("-3", "-2", "-1", "0", "1", "2", "3"))) %>%
+  mutate(formality_diff_centred = factor(formality_diff_centred, levels = c("-3", "-2", "-1", "0", "1", "2", "3")
+  )) %>% 
+  pivot_longer(
+    cols = c(
+      tempo_centred,
+      familiarity_centred,
+      formality_centred,
+      formality_diff_centred
+    ),
+    names_to = "scale",
+    values_to = "rating"
+  ) %>%
+  mutate(rating = reorder(rating, desc(rating))) %>%
+  # aes(x = reorder(the_factor, desc(the_factor))
+  ggplot(aes(y = heritage, fill = rating)) +
+  labs(title = "Ratings per scale",
+       x = "Count",
+       y = "Heritage") +
+  facet_grid(scale ~ ., labeller = as_labeller(facet_labels)) +
+  geom_bar() +
+  geom_vline(xintercept = 50) +
+  scale_fill_manual(values = c(
+    "darkgreen",
+    "chartreuse3",
+    "lightgreen",
+    "grey",
+    "coral",
+    "red3",
+    "red4"
+  )) +
+  theme_bw() +
+  theme(legend.position = "bottom") + guides(fill = guide_legend(nrow = 1, reverse = TRUE))
+```
+
+```{r}
+fig_scales_heritage
+```
+
+
+```{r}
+ggsave(here("plots","barplot_4scales_heritage.jpeg"),
+       fig_scales_heritage,
+       scale = 1.3,
+  width = 210,
+  height = 125,
+  units = c("mm"))
+```
+
+## Plot per scale
+
+### Familiarity
+
+```{r}
+
+fig_familiarity <-
+  df_toydata %>%
+  mutate(familiarity_centred = factor(
+    familiarity_centred,
+    levels = c("-3", "-2", "-1", "0", "1", "2", "3")
+  )) %>%
+  mutate(familiarity_centred = reorder(familiarity_centred, desc(familiarity_centred))) %>%
+  # aes(x = reorder(the_factor, desc(the_factor))
+  ggplot(aes(y = heritage, fill = familiarity_centred)) +
+  labs(title = "Familiarity ratings",
+       x = "Count",
+       y = "Heritage",
+       fill = "Rating") +
+  # facet_grid(scale ~ ., labeller = as_labeller(facet_labels)) +
+  geom_bar() +
+  geom_vline(xintercept = 50) +
+  scale_fill_manual(values = c(
+    "darkgreen",
+    "chartreuse3",
+    "lightgreen",
+    "grey",
+    "coral",
+    "red3",
+    "red4"
+  )) +
+  theme_bw() +
+  theme(legend.position = "bottom") + guides(fill = guide_legend(nrow = 1, reverse = TRUE))
+```
+
+```{r}
+fig_familiarity
+```
+
+
+```{r}
+ggsave(here("plots","barplot_familiarty.jpeg"),
+       fig_familiarity,
+       scale = 1.3,
+  width = 210,
+  height = 80,
+  units = c("mm"))
+```
+
+
+### Formality
+
+```{r}
+
+fig_formality <-
+  df_toydata %>%
+  mutate(formality_centred = factor(
+    formality_centred,
+    levels = c("-3", "-2", "-1", "0", "1", "2", "3")
+  )) %>%
+  mutate(formality_centred = reorder(formality_centred, desc(formality_centred))) %>%
+  # aes(x = reorder(the_factor, desc(the_factor))
+  ggplot(aes(y = heritage, fill = formality_centred)) +
+  labs(title = "Formality ratings",
+       x = "Count",
+       y = "Heritage",
+       fill = "Rating") +
+  # facet_grid(scale ~ ., labeller = as_labeller(facet_labels)) +
+  geom_bar() +
+  geom_vline(xintercept = 50) +
+  scale_fill_manual(values = c(
+    "darkgreen",
+    "chartreuse3",
+    "lightgreen",
+    "grey",
+    "coral",
+    "red3",
+    "red4"
+  )) +
+  theme_bw() +
+  theme(legend.position = "bottom") + guides(fill = guide_legend(nrow = 1, reverse = TRUE))
+```
+
+```{r}
+fig_formality
+```
+
+
+```{r}
+ggsave(here("plots","barplot_familiarty.jpeg"),
+       fig_formality,
+       scale = 1.3,
+  width = 210,
+  height = 80,
+  units = c("mm"))
+```
+
+### Tempo
+
+```{r}
+fig_tempo <-
+  df_toydata %>%
+  mutate(tempo_centred = factor(
+    tempo_centred,
+    levels = c("-3", "-2", "-1", "0", "1", "2", "3")
+  )) %>%
+  mutate(tempo_centred = reorder(tempo_centred, desc(tempo_centred))) %>%
+  # aes(x = reorder(the_factor, desc(the_factor))
+  ggplot(aes(y = heritage, fill = tempo_centred)) +
+  labs(title = "Tempo ratings",
+       x = "Count",
+       y = "Heritage",
+       fill = "Rating") +
+  # facet_grid(scale ~ ., labeller = as_labeller(facet_labels)) +
+  geom_bar() +
+  geom_vline(xintercept = 50) +
+  scale_fill_manual(values = c(
+    "darkgreen",
+    "chartreuse3",
+    "lightgreen",
+    "grey",
+    "coral",
+    "red3",
+    "red4"
+  )) +
+  theme_bw() +
+  theme(legend.position = "bottom") + guides(fill = guide_legend(nrow = 1, reverse = TRUE))
+```
+
+```{r}
+fig_tempo
+```
+
+
+```{r}
+ggsave(here("plots","barplot_tempo.jpeg"),
+       fig_tempo,
+       scale = 1.3,
+  width = 210,
+  height = 80,
+  units = c("mm"))
+```
+
+### Formality differences
+
+```{r}
+fig_formality_diff <-
+  df_toydata %>%
+  mutate(formality_diff_centred = factor(
+    formality_diff_centred,
+    levels = c("-3", "-2", "-1", "0", "1", "2", "3")
+  )) %>%
+  mutate(formality_diff_centred = reorder(formality_diff_centred, desc(formality_diff_centred))) %>%
+  # aes(x = reorder(the_factor, desc(the_factor))
+  ggplot(aes(y = heritage, fill = formality_diff_centred)) +
+  labs(title = "Formality difference ratings",
+       x = "Count",
+       y = "Heritage",
+       fill = "Rating") +
+  # facet_grid(scale ~ ., labeller = as_labeller(facet_labels)) +
+  geom_bar() +
+  geom_vline(xintercept = 50) +
+  scale_fill_manual(values = c(
+    "darkgreen",
+    "chartreuse3",
+    "lightgreen",
+    "grey",
+    "coral",
+    "red3",
+    "red4"
+  )) +
+  theme_bw() +
+  theme(legend.position = "bottom") + guides(fill = guide_legend(nrow = 1, reverse = TRUE))
+```
+
+```{r}
+fig_formality_diff
+```
+
+
+```{r}
+ggsave(here("plots","barplot_formality_diff.jpeg"),
+       fig_formality_diff,
+       scale = 1.3,
+  width = 210,
+  height = 80,
+  units = c("mm"))
+```
+
+## Instruments
+
+```{r}
+instrument_labels <-
+  c(
+    "high" = "High",
+    "low" =  "Low"
+  )
+```
+
+### Formal
+
+```{r}
+fig_formal_instruments <-
+  df_toydata %>%
+  filter(heritage == "formal") %>%
+  dplyr::mutate(across(
+                  c(tempo_centred:formality_diff_centred),
+                  ~ factor(., levels = c("-3", "-2", "-1", "0", "1", "2", "3"))
+                )) %>% 
+  pivot_longer(
+    cols = c(tempo_centred:formality_diff_centred
+    ),
+    names_to = "scale",
+    values_to = "rating"
+  ) %>%
+  mutate(rating = reorder(rating, desc(rating))) %>%
+  # aes(x = reorder(the_factor, desc(the_factor))
+  ggplot(aes(y = instruments, fill = rating)) +
+  labs(title = "Intrument ratings (Formal heritage)",
+       x = "Count",
+       y = "Instrument",
+       fill = "Rating") +
+  facet_grid(scale ~ ., labeller=as_labeller(facet_labels)) +
+  scale_y_discrete(labels=instrument_labels) +
+  geom_bar() +
+  geom_vline(xintercept = 25) +
+  scale_fill_manual(values = c(
+    "darkgreen",
+    "chartreuse3",
+    "lightgreen",
+    "grey",
+    "coral",
+    "red3",
+    "red4"
+  )) +
+  theme_bw() +
+  theme(legend.position = "bottom") + guides(fill = guide_legend(nrow = 1, reverse = TRUE))
+```
+
+```{r}
+fig_formal_instruments
+```
+
+
+```{r}
+ggsave(here("plots", "barplot_formal_instruments.jpeg"),
+       fig_formal_instruments,
+       scale = 1.3,
+  width = 210,
+  height = 100,
+  units = c("mm"))
+```
+
+### Informal
+
+```{r}
+fig_informal_instruments <-
+  df_toydata %>%
+  filter(heritage == "informal") %>%
+  dplyr::mutate(across(
+                  c(tempo_centred:formality_diff_centred),
+                  ~ factor(., levels = c("-3", "-2", "-1", "0", "1", "2", "3"))
+                )) %>% 
+  pivot_longer(
+    cols = c(tempo_centred:formality_diff_centred
+    ),
+    names_to = "scale",
+    values_to = "rating"
+  ) %>%
+  mutate(rating = reorder(rating, desc(rating))) %>%
+  # aes(x = reorder(the_factor, desc(the_factor))
+  ggplot(aes(y = instruments, fill = rating)) +
+  labs(title = "Intrument ratings (Informal heritage)",
+       x = "Count",
+       y = "Instrument",
+       fill = "Rating") +
+  facet_grid(scale ~ ., labeller=as_labeller(facet_labels)) +
+  scale_y_discrete(labels=instrument_labels) +
+  geom_bar() +
+  geom_vline(xintercept = 25) +
+  scale_fill_manual(values = c(
+    "darkgreen",
+    "chartreuse3",
+    "lightgreen",
+    "grey",
+    "coral",
+    "red3",
+    "red4"
+  )) +
+  theme_bw() +
+  theme(legend.position = "bottom") + guides(fill = guide_legend(nrow = 1, reverse = TRUE))
+```
+
+```{r}
+fig_informal_instruments
+```
+
+
+```{r}
+ggsave(here("plots", "barplot_informal_instruments.jpeg"),
+       fig_informal_instruments,
+       scale = 1.3,
+  width = 210,
+  height = 100,
+  units = c("mm"))
+```
+
+# Summary tables
+
+## Language and scale
+
+```{r}
+tbl_ratings <-
+df_toydata %>% 
+  pivot_longer(
+    cols = c(
+      tempo_centred:formality_diff_centred
+    ),
+    names_to = "scale",
+    values_to = "rating"
+  ) %>%
+  summarise(mean = mean(rating),
+            sd = sd(rating),
+            median = median(rating),
+            N = n(),
+            .by = c(heritage,scale)) %>% 
+  knitr::kable(col.names = c("Heritage", "Scale", "M", "SD", "Median", "N"),
+               caption = "M = mean, SD = standard deviaton, N = number of ratings") %>% 
+  kable_styling()
+```
+
+```{r}
+tbl_ratings
+```
+
+
+```{r}
+kableExtra::save_kable(tbl_ratings, here("tables", "summary_4scales_heritage.png"))
+```
+
+## Instruments
+
+### Formal
+
+```{r}
+tbl_formal <-
+df_toydata %>% 
+  filter(heritage == "formal") %>% 
+  pivot_longer(
+    cols = c(
+      tempo_centred:formality_diff_centred
+    ),
+    names_to = "scale",
+    values_to = "rating"
+  ) %>%
+  summarise(mean = mean(rating),
+            sd = sd(rating),
+            median = median(rating),
+            N = n(),
+            .by = c(heritage, scale, instruments)) %>% 
+  knitr::kable(col.names = c("Heritage", "Scale", "Instruments","M", "SD", "Median", "N"),
+               caption = "M = mean, SD = standard deviaton, N = number of ratings") %>% 
+  kable_styling()
+```
+
+```{r}
+tbl_formal
+```
+
+```{r}
+kableExtra::save_kable(tbl_formal, here("tables", "summary_formal_instruments.png"))
+```
+
+### Formal
+
+```{r}
+tbl_informal <-
+df_toydata %>% 
+  filter(heritage == "informal") %>% 
+  pivot_longer(
+    cols = c(
+      tempo_centred:formality_diff_centred
+    ),
+    names_to = "scale",
+    values_to = "rating"
+  ) %>%
+  summarise(mean = mean(rating),
+            sd = sd(rating),
+            median = median(rating),
+            N = n(),
+            .by = c(heritage, scale, instruments)) %>% 
+  knitr::kable(col.names = c("Heritage", "Scale", "Instruments","M", "SD", "Median", "N"),
+               caption = "M = mean, SD = standard deviaton, N = number of ratings") %>% 
+  kable_styling()
+```
+
+```{r}
+tbl_informal
+```
+
+```{r}
+kableExtra::save_kable(tbl_informal, here("tables", "summary_informal_instruments.png"))
+```
